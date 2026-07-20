@@ -1,0 +1,18 @@
+#include<iostream>
+using namespace std;
+int main(){
+    float principal, rate, time ,  simpleInterest;
+    cout<<"Enter  principal: ";
+    cin>>principal;
+    
+    cout<<"Enter rate: ";
+    cin>>rate;
+
+    cout<<"Enter time: ";
+    cin>>time;
+
+    simpleInterest = (principal* rate* time)/100;
+    cout<<"simpleInterest = "<<simpleInterest<<endl;
+    return 0;
+
+}
